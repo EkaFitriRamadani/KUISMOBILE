@@ -121,7 +121,8 @@
             android:layout_weight="1"
             android:src="@drawable/ic_arrow_back"
             android:layout_margin="2dp"
-            android:background="#C1918E8E"/>
+            android:background="#C1DFD8D8"
+            android:onClick="BacktoHome"/>
 
         <ImageButton
             android:layout_width="0dp"
@@ -129,9 +130,9 @@
             android:layout_weight="1"
             android:src="@drawable/ic_power"
             android:layout_margin="2dp"
-            android:background="#C1918E8E"/>
+            android:background="#C1DFD8D8"
+            android:onClick="ClickLogout"/>
 
     </LinearLayout>
-
 
 </LinearLayout>
